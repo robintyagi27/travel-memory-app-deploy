@@ -36,18 +36,7 @@ Domain: robin27.in
 
 # Final Architecture
 
-Users
-   |
-Cloudflare DNS
-   |
---------------------------
-|                        |
-app.robin27.in           api.robin27.in
-Frontend ALB             Backend ALB
-|                        |
-FE-1       FE-2          BE-1        BE-2
-                           |
-                        MongoDB
+<img width="559" height="701" alt="image" src="https://github.com/user-attachments/assets/88b4f0f9-8df1-4c7b-9d8f-0925d2834f4a" />
 
 # Deployment Steps
 
